@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAnioID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Año"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/tvProyectoCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proyecto código"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvProyectoDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvProyectoCodigoFinanciero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código financiero"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvDepartamentoNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departamento"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvMunicipioNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Municipio"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvAvanceFisico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avance"
+            android:textSize="14sp"
+            android:textColor="#4CAF50"/>
+
+        <TextView
+            android:id="@+id/tvDepartamentoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID departamento"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvCodMunicipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código municipio"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/colorIndicator"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>
